@@ -16,6 +16,6 @@ class Friend(db.Model):
             "role": self.role,
             "description": self.description,
             "gender": self.gender,
-            # imgUrl car on va l'envoyer en client qui est en JS, et img_url, convention snake_case de Python
+            # imgUrl car on va l'envoyer au client qui est en JS, et img_url, convention snake_case de Python
             "imgUrl": self.img_url,
         }
